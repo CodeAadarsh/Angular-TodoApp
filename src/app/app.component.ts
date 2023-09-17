@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-first-app';
+  name = 'Aadarsh Verma'
+  constructor(){
+    setTimeout(() => {
+      this.title="even"
+    }, 2000);
+  }
+  Talert(){
+    alert("This Page will be available soon");
+  }
 }
